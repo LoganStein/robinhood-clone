@@ -1,0 +1,34 @@
+@import "./variables";
+
+.header__wrapper {
+  @include flexSpace;
+  color: $textColor;
+  padding: 1rem;
+  a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.header__search {
+  @include flexCenter;
+  flex: 1;
+  input {
+    background-color: $searchBarColor;
+    border-radius: 0.5rem;
+    border-color: $searchBorderColor;
+    padding: 0.5rem;
+    width: 80%;
+    :focus {
+      outline: none;
+    }
+  }
+}
+
+.header__menu {
+  @include flexCenter;
+  .header__menu__item {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+}

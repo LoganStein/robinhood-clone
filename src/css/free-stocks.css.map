@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,cAAc,CAAC;EACb,KAAK,ECDK,KAAK;CDEhB",
+    "sources": [
+        "free-stocks.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "free-stocks.css"
+}

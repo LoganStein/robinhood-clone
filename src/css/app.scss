@@ -1,0 +1,14 @@
+@import "./variables";
+
+.App {
+  background-color: $appBackgroundColor;
+}
+
+.app__header {
+  background-color: $appBackgroundColor;
+}
+
+.app__body {
+  background-color: $appBackgroundColor;
+  height: 100vh;
+}

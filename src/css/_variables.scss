@@ -1,0 +1,29 @@
+$appBackgroundColor: black;
+$searchBarColor: rgb(78, 78, 78);
+$textColor: white;
+$searchBorderColor: #31363a;
+
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexSpace {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin flexCol {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin contentMargin {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
