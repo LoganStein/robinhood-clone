@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,SAAS,CAAC;EAER,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,IAAI,EAAE,GAAG;CACV;;AAED,AAAA,gBAAgB,CAAC;EACf,MAAM,EAAE,KAAK;CACd;;AAED,AAAA,oBAAoB,CAAC;EACnB,UAAU,EAAE,IAAI;CACjB",
+    "sources": [
+        "newsfeed.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "newsfeed.css"
+}

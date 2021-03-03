@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .App {
   background-color: black;
 }
@@ -9,5 +16,9 @@
 .app__body {
   background-color: black;
   height: 100vh;
+}
+
+.page__wrapper {
+  color: white;
 }
 /*# sourceMappingURL=app.css.map */

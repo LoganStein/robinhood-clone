@@ -1,5 +1,11 @@
 @import "./variables";
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .App {
   background-color: $appBackgroundColor;
 }
@@ -11,4 +17,8 @@
 .app__body {
   background-color: $appBackgroundColor;
   height: 100vh;
+}
+
+.page__wrapper {
+  color: $textColor;
 }

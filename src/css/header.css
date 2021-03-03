@@ -18,6 +18,10 @@
   cursor: pointer;
 }
 
+.header__wrapper a :hover {
+  color: #5ac53b;
+}
+
 .header__search {
   display: -webkit-box;
   display: -ms-flexbox;

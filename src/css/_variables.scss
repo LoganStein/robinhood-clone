@@ -2,10 +2,19 @@ $appBackgroundColor: black;
 $searchBarColor: rgb(78, 78, 78);
 $textColor: white;
 $searchBorderColor: #31363a;
+$hoverColor: #5ac53b;
+$statsBackground: #1e2023;
+$statsBorderColor: #42494d;
 
 @mixin flexCenter {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+@mixin flexEven {
+  display: flex;
+  justify-content: space-evenly;
   align-items: center;
 }
 

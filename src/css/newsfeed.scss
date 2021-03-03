@@ -1,0 +1,16 @@
+@import "./variables";
+
+.newsfeed {
+  //   border: 1px solid lightcoral;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  flex: 0.7;
+}
+
+.newsfeed__chart {
+  height: 200px;
+}
+
+.newsfeed__portfolio {
+  text-align: left;
+}

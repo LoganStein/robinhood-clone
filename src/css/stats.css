@@ -1,0 +1,27 @@
+.stats {
+  background-color: #1e2023;
+  border-radius: 5px;
+  border: 1px solid #42494d;
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.stats__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  border-bottom: 1px solid #42494d;
+  padding: 20px 20px 10px 20px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=stats.css.map */
