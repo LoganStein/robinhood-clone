@@ -8,6 +8,13 @@ In the project directory, you can run:
 
 ### `npm start`
 
+## Important
+  The github repo is missing an apikey in the form of a file named APIkey.js for this program to work properly locally you will need to go to finnhub.io and create an API key and add it to a file named APIkey.js like this
+  `function APIkey(){
+    return "YOUR_API_KEY"
+  }`
+  doing this should result in a working app
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
