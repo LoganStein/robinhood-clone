@@ -13,7 +13,7 @@ In the project directory, you can run:
   `function APIkey(){
     return "YOUR_API_KEY"
   }`
-  doing this should result in a working app
+  You will also have to create and retreive data from a database
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

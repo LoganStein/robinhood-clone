@@ -1,0 +1,15 @@
+@import "./variables";
+
+.marketNews__wrapper {
+  text-align: left;
+  padding: 2rem;
+  border: 1px solid $statsBorderColor;
+  border-radius: 5px;
+  p {
+    color: $marketTextColor;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+}

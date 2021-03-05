@@ -1,12 +1,17 @@
 .stats {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   background-color: #1e2023;
   border-radius: 5px;
   border: 1px solid #42494d;
-  -webkit-box-flex: 0.3;
-      -ms-flex: 0.3;
-          flex: 0.3;
+  -webkit-box-flex: 0.25;
+      -ms-flex: 0.25;
+          flex: 0.25;
   margin-left: 1rem;
   margin-right: 1rem;
+  top: 2rem;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 .stats__header {

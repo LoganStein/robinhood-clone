@@ -4,11 +4,13 @@
   @include flexSpace;
   color: $textColor;
   padding: 1rem;
+  top: 0;
+  position: sticky;
   a {
     color: inherit;
     text-decoration: none;
     cursor: pointer;
-    :hover{
+    :hover {
       color: $hoverColor;
     }
   }

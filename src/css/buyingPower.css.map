@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,qBAAqB,CAAC;ECsBpB,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EDtBnB,aAAa,EAAE,GAAG,CAAC,KAAK,CCEP,OAAO;EDDxB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,IAAI;EACpB,aAAa,EAAE,IAAI;CACpB",
+    "sources": [
+        "buyingPower.scss",
+        "_variables.scss"
+    ],
+    "names": [],
+    "file": "buyingPower.css"
+}

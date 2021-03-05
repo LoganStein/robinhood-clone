@@ -1,0 +1,9 @@
+@import "./variables";
+
+.buyingPower__wrapper {
+  @include flexSpace;
+  border-bottom: 1px solid $statsBorderColor;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+}

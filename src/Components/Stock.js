@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import APIkey from "../APIkey";
 import "../css/stock.css";
+import stockSVG from "../assets/stock.svg";
 
 function Stock(props) {
   const [stockData, setStockData] = useState({});
@@ -13,10 +14,8 @@ function Stock(props) {
       .then((data) => setStockData(data));
   }, []);
 
+  // calculate the percent change from daily open to current price
   function percentChange() {
-    if (stockData.o > stockData.c) {
-      console.log("neg");
-    } else console.log("pos");
     let diff = stockData.c - stockData.o;
     let pc = (diff / stockData.o) * 100;
     return pc.toFixed(2);
@@ -25,8 +24,12 @@ function Stock(props) {
   return (
     <div className="stock">
       {/* ticker */}
-      <h4>{props.ticker}</h4>
+      <div className="stock__tickerAndNumber">
+        <h4>{props.ticker}</h4>
+        {props.owned ? <p>{props.shares} shares</p> : null}
+      </div>
       {/* graph */}
+      <img src={stockSVG} height={16} /> {/* fake chart */}
       {/* price */}
       <div className="stock__prices">
         {/* share price */}

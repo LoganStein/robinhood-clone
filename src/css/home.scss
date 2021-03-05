@@ -3,6 +3,5 @@
 .home {
   width: 100%;
   @include flexSpace;
-  align-items: stretch;
   @include contentMargin;
 }

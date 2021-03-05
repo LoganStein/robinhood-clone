@@ -2,13 +2,16 @@
 
 .stats {
   //   border: 1px solid lightgreen;
+  align-self: flex-start;
   background-color: $statsBackground;
   border-radius: 5px;
   border: 1px solid $statsBorderColor;
   //   padding: 0px 30px 30px 30px;
-  flex: 0.3;
+  flex: 0.25;
   margin-left: 1rem;
   margin-right: 1rem;
+  top: 2rem;
+  position: sticky;
 }
 
 .stats__header {

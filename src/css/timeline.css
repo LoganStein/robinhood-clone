@@ -1,0 +1,31 @@
+.timeline__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  cursor: pointer;
+  border-bottom: 1px solid #42494d;
+  padding: 1rem;
+}
+
+.timeline__wrapper :hover {
+  color: #5ac53b;
+}
+
+.timeline__button {
+  margin-right: 1rem;
+}
+
+.active {
+  border-bottom: 1px solid #5ac53b;
+  color: #5ac53b;
+}
+/*# sourceMappingURL=timeline.css.map */

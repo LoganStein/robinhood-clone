@@ -3,6 +3,12 @@
 .stock {
   @include flexEven;
   padding: 0.5rem;
+  width: 100%;
+}
+
+.stock:hover {
+  background-color: $stockHoverColor;
+  cursor: pointer;
 }
 
 .stock__prices {
@@ -10,7 +16,7 @@
 }
 
 .neg {
-  color: red;
+  color: $negColor;
 }
 
 .pos {

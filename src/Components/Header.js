@@ -14,6 +14,7 @@ function Header() {
         </Link>
       </div>
       {/* search bar */}
+      {/* use the search to pass the ticker to  */}
       <div className="header__search">
         <input name={"search"} placeholder={"Search"} type={"text"} />
       </div>
@@ -27,7 +28,7 @@ function Header() {
           </Link>
         </div>
         <div className="header__menu__item">
-          <Link to="/portfolio">
+          <Link exact to="/">
             <h4>Portfolio</h4>
           </Link>
         </div>

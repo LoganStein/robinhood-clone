@@ -1,0 +1,15 @@
+.marketNews__wrapper {
+  text-align: left;
+  padding: 2rem;
+  border: 1px solid #42494d;
+  border-radius: 5px;
+}
+
+.marketNews__wrapper p {
+  color: #7B858A;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+/*# sourceMappingURL=marketNews.css.map */

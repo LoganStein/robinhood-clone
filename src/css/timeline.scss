@@ -1,0 +1,21 @@
+@import "./variables";
+
+.timeline__wrapper {
+  @include flexCenter;
+  justify-content: start;
+  cursor: pointer;
+  border-bottom: 1px solid $statsBorderColor;
+  padding: 1rem;
+  :hover {
+    color: $hoverColor;
+  }
+}
+
+.timeline__button {
+  margin-right: 1rem;
+}
+
+.active {
+  border-bottom: 1px solid $hoverColor;
+  color: $hoverColor;
+}
