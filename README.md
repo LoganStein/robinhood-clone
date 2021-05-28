@@ -9,7 +9,7 @@ In the project directory, you can run:
 ### `npm start`
 
 ## Important
-  The github repo is missing an apikey in the form of a file named APIkey.js for this program to work properly locally you will need to go to finnhub.io and create an API key and add it to a file named APIkey.js like this
+  The github repo is missing an api key in the form of a file named APIkey.js for this program to work properly locally you will need to go to finnhub.io and create an API key and add it to a file named APIkey.js like this
   `function APIkey(){
     return "YOUR_API_KEY"
   }`
